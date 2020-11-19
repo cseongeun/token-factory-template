@@ -1,0 +1,19 @@
+{
+  "name": "token-factory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@poanet/solidity-flattener": "^3.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "flat": "./node_modules/.bin/poa-solidity-flattener",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
